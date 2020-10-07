@@ -5,6 +5,27 @@
 // $main-font-size: ;
 
 //$header-size: ;
-body { font-family: 'Lato', sans-serif; font-size:16px; background-color: #505050; }
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  background-color: #505050;
+}
 
-.bannerContainer { padding:0; }
+.bannerContainer {
+  padding: 0;
+}
+
+.imgText {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12%;
+}
+
+$main-text-color: white;
+$main-bg-color: salmon;
+
+$main-font: "arial", "helvetica", sans-serif;
+$main-font-size: 16px;
+
+$header-size: 2em;
