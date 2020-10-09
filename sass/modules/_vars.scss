@@ -1,31 +1,10 @@
-// $main-text-color: ;
-// $main-bg-color: ;
+$main-bg-color: #505050;
+$light-bg-color:#f2f2f2;
 
-// $main-font: ;
-// $main-font-size: ;
+$accent-color: #690800;
 
-//$header-size: ;
-body {
-  font-family: "Lato", sans-serif;
-  font-size: 16px;
-  background-color: #505050;
-}
-
-.bannerContainer {
-  padding: 0;
-}
-
-.imgText {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 12%;
-}
-
-$main-text-color: white;
-$main-bg-color: salmon;
-
-$main-font: "arial", "helvetica", sans-serif;
+$main-font: 'Lato', sans-serif;
 $main-font-size: 16px;
+$main-text-color:#fff;
 
 $header-size: 2em;

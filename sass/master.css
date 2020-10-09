@@ -36,6 +36,10 @@ body {
   left: 40px;
 }
 
+.profileImg {
+  border: 3px solid white;
+}
+
 .sidebarC {
   background-color: #505050;
   color: white;
@@ -76,10 +80,6 @@ body {
 
 .sNav i span {
   margin-right: 10px;
-}
-
-.profileImg {
-  border: 3px solid white;
 }
 
 .profPanel {
@@ -130,11 +130,6 @@ body {
   position: relative;
   top: 10px;
   left: 20px;
-}
-
-.mainHead {
-  height: 110px;
-  background-color: #ffffff;
 }
 
 .yellowBoxNav {
