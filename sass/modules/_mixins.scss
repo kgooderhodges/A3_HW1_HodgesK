@@ -1,11 +1,4 @@
-// mixins go here. example below
-
 @mixin roundCorners($radius) {
-  border-radius: $radius;
+    border-radius: $radius;
 }
 
-@mixin addPadding($values...) {
-  @each $var in $values {
-    padding: #{$var};
-  }
-} ;

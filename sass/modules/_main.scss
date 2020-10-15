@@ -1,18 +1,60 @@
-// Main rules go here (like body, main, p, h1, h2 etc)
-.bodyC {
-  position: relative;
-  padding: 0;
-  background-color: #f1f1f1;
-  margin-right: -15px;
+body { 
+    font-family: $main-font; 
+    font-size:$main-font-size; 
+    background-color: $main-bg-color; 
+    .bodyC {
+        position:relative;
+        padding:0;
+        background-color:#f1f1f1;
+        margin-right:-15px;
+    }
 }
 
 .mainHead {
-  height: 110px;
-  background-color: #ffffff;
-  .clLogo {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 40px;
-  }
+    height:110px;
+    background-color: #ffffff;
+    
+    .clLogo { 
+        position:relative;
+        top: 50%;
+        transform: translateY(-50%);
+        left:40px;
+    }
+
+    .yellowBoxNav {
+        position:relative;
+        display:inline-block;
+        /*float:right;*/
+        margin-right:30px;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        background-color:#f3d83f;
+        @include roundCorners(3px);
+        top: 50%;
+        transform: translateY(-50%);
+        width: 55px;
+        height: 45px;
+        color:white;
+        z-index: 25;
+        
+        span { 
+            position:relative; 
+            top: 8px; 
+            font-size:3rem; 
+        }
+        .dropdown-menu { 
+            margin-top:25px; 
+        }
+        
+        .dropdown-menu-right { 
+            right:-15px; 
+        }
+    }
+    
+}
+
+#topPanel { 
+    margin:0; 
+    position:relative; 
 }
