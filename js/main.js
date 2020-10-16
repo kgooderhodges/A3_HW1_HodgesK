@@ -1,17 +1,27 @@
 (() => {
 
     // make an AJAX request using the Fetch API
-    // fetch, like a dog. get that data i asked for
-    fetch('./data/classData.json')
-    .then(res => res.json())
+    fetch('./data/classData.json') 
+    .then(res => res.json()) 
+    // you can change the name data to anything, but not res.
+    // data is the handler
     .then(data => {
-        console.log(data);
-
-        // handleData
+        
         // here's where you would call the function that puts the pieces on the page
+        
+        let classSection = document.querySelector(".profPanelText").children;
+        
+        debugger;
+        
+        classSection[0].textContent = (data.coursename + ' - ' + data.coursecode);
+        classSection[1].textContent = ('Professor - ' + data.profname);
+        classSection[2].textContent = data.classtime;
     })
-    .cathch((err) => {
+    
+
+
+    .catch((err) => {
         console.log(err);
     })
-
+    
 })();
