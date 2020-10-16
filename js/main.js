@@ -11,7 +11,7 @@
         
         let classSection = document.querySelector(".profPanelText").children;
         
-        debugger;
+        // debugger;
         
         classSection[0].textContent = (data.coursename + ' - ' + data.coursecode);
         classSection[1].textContent = ('Professor - ' + data.profname);
